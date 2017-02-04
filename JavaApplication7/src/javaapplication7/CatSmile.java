@@ -1,14 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package javaapplication7;
 
-/**
- *
- * @author Ученик
- */
-public class CatSmile {
-    
+
+public class CatSmile extends Smile {
+    public void улыбка() {
+    System.out.println("Улыбается");
+}
+    @Override
+    public void миганиеГлазами () {
+        System.out.println("Мигает правым глазом");
+    }
 }
