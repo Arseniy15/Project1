@@ -5,10 +5,10 @@ public class JavaApplication8 {
 
     
     public static void main(String[] args) {
-        FishSmile fishSmile = new FishSmile ('o','o', true);
+        VampireSmile vampireSmile = new VampireSmile ('o','o');
         
       
-        String c = fishSmile.toString();
+        String c = vampireSmile.toString();
         System.out.println(c);
        
     
